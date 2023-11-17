@@ -1,0 +1,33 @@
+.mi-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  box-shadow: 0 0 10px rgb(187, 187, 187);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.tarjeta:hover {
+  transition: .3s;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px rgba(59, 16, 16, 0.4);
+  transform: translateY(-4%);
+}
+
+.formularioOculto {
+  display: none;
+}
+
+.nombreNav {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.nav-pills li a:hover {
+  background-color: rgb(61, 61, 243);
+}
