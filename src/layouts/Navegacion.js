@@ -154,7 +154,7 @@ function Navegacion() {
                       to={"/midescripcion"}
                       className="text-black me-auto"
                     >
-                      Mi descripción
+                      <FaUserEdit style={estiloIcono} /> Mi descripción
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item onClick={() => dispatch(cerrarSesion())}>
@@ -170,4 +170,4 @@ function Navegacion() {
     </Navbar>
   );
 }
-export { Navegacion };
+export { Navegacion }
